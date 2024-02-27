@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/project.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body style="overflow-x: hidden;" class="body">
+    <header class="header">
+        <div id="menu" id="top-nav">
+            <h1><strong>EVENTS & Design</strong></h1>
+            <div>
+                <div class="menu-icon">
+                    <span></span>
+                </div>
+                <nav class="menu">
+                        <ul class="menu-list">
+                            <li><a href="project.html">Home</a></li>
+                            <li><a href="project_photos.html">Photos</a></li>
+                            <li><a href="project_contacts.html">Contacts</a></li>
+                        </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="intr_text">
+        <p class="intr_tex2"><strong> Wir sind für euch da</strong></br></br>​Ob Hochzeit, Geburtstag, Taufe oder ein anderes großes Ereignis  – gern stehen wir euch zur Seite. Unser Gasthof in Mügeln bietet sich perfekt als Eventlocation an. Je nach Wetterverhältnissen besteht die Möglichkeit am See, bei uns auf der Wiese direkt am Gasthof oder ganz klassisch im Festsaal zu feiern.  </p>
+    </div>
+
+    <div>
+        <form class="form" id="form" action="/feedback/processing.php" enctype="multipart/form-data" novalidate>
+            <p><input type="text" name="name" class="feedback-input" placeholder="Name" id="name"></p>
+            <p><input type="email" name="email" class="feedback-input" placeholder="Email" id="email"></p>
+            <p><textarea name="text" id="comment" placeholder="Message" class="feedback-input"></textarea></p>
+            <input type="submit" value="Submit" class="button-submit">
+
+        </form>
+    </div>
+    
+
+    
+
+   
+    <div id="footer">
+        <div><p style="color: #2e2828; margin: 0; padding:0; margin-top: 1vw; font-size: 1vw;">© EVENTS & Design, Inh. Milena Letz</p></div>
+    </div>
+
+    <!-- <script>
+        const mainBody = document.querySelector('body')
+        const iconMenu = document.querySelector('.menu-icon');
+        if (iconMenu) {
+            const menuBody = document.querySelector('.menu');
+            iconMenu.addEventListener("click", function (e) {
+                iconMenu.classList.toggle('_active');
+                menuBody.classList.toggle('_active');
+            });
+            
+        };
+    
+        
+      </script> -->
+      
+      <script src="../js/project.js"></script>
+      <script>
+          
+      </script>
+        
+</body>
+</html>
